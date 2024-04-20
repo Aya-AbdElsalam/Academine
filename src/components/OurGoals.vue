@@ -111,7 +111,7 @@
 
 <script>
 import { OhVueIcon } from "oh-vue-icons";
-import Banner from "../assets/headerPages.jpg";
+import Banner from "../assets/headerPages.webp";
 
 export default {
   name: "OurGoals",

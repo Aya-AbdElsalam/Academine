@@ -65,7 +65,7 @@
   </section>
 </template>
 <script>
-import contact from "../assets/contact.png";
+import contact from "../assets/contact.webp";
 import { OhVueIcon } from "oh-vue-icons";
 
 export default {

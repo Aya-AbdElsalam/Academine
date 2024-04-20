@@ -20,7 +20,7 @@
     typography="Value for each course?"
     title="Experts raise your understand"
     direction="true"
-    :img="img"
+    :img="img2"
     typographySecond="Save lessons for later and revise or write notes at any time and on multiple devices on your way. Never interfere with activities of enjoyment or other precious moments."
   >
   </BannerSection>
@@ -34,12 +34,14 @@ import BannerSection from "../components/BannerSection";
 import OurSkilledInstructors from "../components/OurSkilledInstructors";
 import ReviewsSection from "../components/ReviewsSection";
 import img from "../assets/personalImg2.webp";
-import correctIcon from "../assets/checkmark.png";
+import img2 from "../assets/image.webp";
+import correctIcon from "../assets/checkmark.webp";
 export default {
   name: "AboutView",
   data() {
     return {
       img,
+      img2,
       correctIcon,
     };
   },

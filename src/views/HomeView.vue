@@ -47,7 +47,7 @@ import ReviewsSection from "../components/ReviewsSection";
 import videoSection from "../components/videoSection";
 import BrandSection from "../components/BrandSection";
 import img from "../assets/personalImg2.webp";
-import img2 from "../assets/image.png";
+import img2 from "../assets/image.webp";
 
 export default {
   name: "HomeView",

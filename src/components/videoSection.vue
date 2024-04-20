@@ -129,7 +129,7 @@
   </div>
 </template>
 <script>
-import bg from "../assets/headerPages.jpg";
+import bg from "../assets/headerPages.webp";
 import { OhVueIcon } from "oh-vue-icons";
 
 export default {

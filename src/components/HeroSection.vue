@@ -61,7 +61,7 @@
   </div>
 </template>
 <script>
-import bg from "../assets/bg.png";
+import bg from "../assets/bg.webp";
 import { OhVueIcon } from "oh-vue-icons";
 
 export default {

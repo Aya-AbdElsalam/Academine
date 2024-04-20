@@ -10,7 +10,7 @@
   </div>
 </template>
 <script>
-import headerImg from "../assets/headerPages.jpg";
+import headerImg from "../assets/headerPages.webp";
 export default {
   name: "HeaderPages",
   data() {
