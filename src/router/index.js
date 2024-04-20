@@ -185,10 +185,11 @@ const router = createRouter({
 });
 router.beforeEach((to) => {
   document.title = to.meta.title || to.params.title;
-  window.scrollTo({
-    top: 0,
-    left: 0,
-    behavior: "smooth",
-  });
+  to.query.tab === undefined &&
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
 });
 export default router;
