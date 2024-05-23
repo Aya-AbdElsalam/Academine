@@ -27,10 +27,10 @@ nav {
 
       &.router-link-exact-active {
         padding: 0 10px;
-        border: 3px solid #42b983;
+        border: 3px solid rgb(5 139 85);
         border-radius: 24px;
         display: inline-block;
-        color: #42b983;
+        color: rgb(5 139 85);
       }
     }
   }

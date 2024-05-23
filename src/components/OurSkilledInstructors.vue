@@ -11,6 +11,8 @@
         :key="team.id"
       >
         <img
+          height="256px"
+          width="100%"
           :src="team.img"
           :alt="team.name"
           class="h-64 w-full transition duration-500 group-hover:scale-105 sm:h-72"

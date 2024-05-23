@@ -185,6 +185,9 @@ const router = createRouter({
 });
 router.beforeEach((to) => {
   document.title = to.meta.title || to.params.title;
+  document.querySelector('meta[name="description"]').content =
+    to.meta.description;
+  console.log(document.querySelector('meta[name="description"]').content);
   to.query.tab === undefined &&
     window.scrollTo({
       top: 0,

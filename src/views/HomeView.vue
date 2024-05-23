@@ -31,7 +31,7 @@ English School"
       to="/about"
       class="bg-primary inline-block rounded-[150px] hover:bg-transparent hover:text-primary border-4 border-primary px-5 py-2 mt-3 font-bold min-w-36 text-white"
     >
-      LEARN MORE
+      LEARN MORE ABOUT US
     </RouterLink></BannerSection
   >
   <BrandSection />

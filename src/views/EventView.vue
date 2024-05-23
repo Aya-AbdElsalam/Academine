@@ -20,6 +20,8 @@
           <img
             :alt="event.title"
             :src="event.img"
+            width="100%"
+            height="100%"
             class="aspect-square h-full w-full object-cover"
           />
         </div>

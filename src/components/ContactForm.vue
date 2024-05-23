@@ -1,7 +1,13 @@
 <template>
   <div class="flex gap-6 flex-wrap container my-20">
     <div class="w-80 grow">
-      <img class="w-full h-full" width="300" height="300" :src="contact" />
+      <img
+        class="w-full h-full"
+        width="300"
+        height="300"
+        :src="contact"
+        alt="contact"
+      />
     </div>
     <form
       class="w-80 grow-[2] flex flex-col gap-6"

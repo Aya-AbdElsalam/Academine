@@ -61,7 +61,7 @@ export default {
         return (
           '<div class="' +
           className +
-          '"><img src="' +
+          '"><img width="80px" height="auto" src="' +
           this.Reviews[index].img +
           '" alt="' +
           this.Reviews[index].name +
@@ -77,7 +77,7 @@ export default {
         return (
           '<div class="' +
           className +
-          '"><img src="' +
+          '"><img width="80px" height="auto" src="' +
           this.Reviews[index].img +
           '" alt="' +
           this.Reviews[index].name +

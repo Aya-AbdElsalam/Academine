@@ -4,7 +4,13 @@
     :style="{ flexDirection: direction ? 'row-reverse' : 'row' }"
   >
     <div class="w-60 lg:w-[450px] grow-[1] self-stretch">
-      <img :src="img" class="w-full h-full" />
+      <img
+        :src="img"
+        class="w-full h-full"
+        :alt="title"
+        width="100%"
+        height="100%"
+      />
     </div>
     <div class="w-96 grow-[2]">
       <p class="bg-secondary px-5 w-fit text-white py-3">

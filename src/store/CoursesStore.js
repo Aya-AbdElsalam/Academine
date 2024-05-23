@@ -1,26 +1,17 @@
 /* eslint-disable no-unused-vars */
 import { defineStore } from "pinia";
-
 import {
   getFirestore,
   onSnapshot,
   collection,
   doc,
-  deleteDoc,
   setDoc,
-  addDoc,
-  orderBy,
   query,
 } from "firebase/firestore";
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
-import { ref, onUnmounted } from "vue";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: "AIzaSyAWOQIYa8UYNxKUf8pHEc32JG-wM1nN-5E",
@@ -37,14 +28,16 @@ const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 const db = getFirestore(app);
 export const CoursesStore = defineStore("Courses", {
-  state: () => ({ Courses: undefined, CourseDetails: undefined }),
+  state: () => ({ Courses: undefined, CourseDetails: undefined, c: [] }),
   getters: {},
   actions: {
     GetCourses() {
       const latestQuery = query(collection(db, "Courses"));
       onSnapshot(latestQuery, (snapshot) => {
         this.Courses = [];
+
         snapshot.docs.map((doc) => {
+          this.c.push({ ...{ id: doc.id }, ...doc.data() });
           this.Courses.push({
             id: doc.id,
             title: doc.data().title,

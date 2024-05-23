@@ -33,6 +33,8 @@
       >
         <div v-if="Courses.length > 0">
           <img
+            width="100%"
+            height="13rem"
             :src="Course.img"
             :alt="Course.title"
             class="h-52 w-full object-cover transition duration-500 group-hover:scale-105"

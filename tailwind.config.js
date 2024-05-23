@@ -8,7 +8,7 @@ module.exports = {
         md: "800px",
       },
       colors: {
-        primary: "#00BF73",
+        primary: "rgb(5 139 85)",
         secondary: "#555555",
         bgSecondary: "#ededed",
         color1: " #b0d590",

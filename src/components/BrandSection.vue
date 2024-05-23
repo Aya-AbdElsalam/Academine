@@ -7,7 +7,7 @@
       class="mySwiper"
     >
       <swiper-slide v-for="brand in Brand" :key="brand.id"
-        ><img :src="brand.img"
+        ><img :src="brand.img" :alt="brand.id" width="auto" height="auto"
       /></swiper-slide>
     </swiper>
   </div>

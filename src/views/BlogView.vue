@@ -21,6 +21,8 @@
           <img
             :alt="Blog.title"
             :src="Blog.img"
+            width="100%"
+            height="100%"
             class="aspect-square h-full w-full object-cover"
           />
         </div>

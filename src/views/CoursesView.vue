@@ -10,6 +10,8 @@
         <img
           :src="Course.img"
           :alt="Course.title"
+          width="100%"
+          height="13rem"
           class="h-52 w-full object-cover transition duration-500 group-hover:scale-105"
         />
 

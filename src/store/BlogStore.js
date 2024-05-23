@@ -10,7 +10,7 @@ import {
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-// Your web app's Firebase configuration
+//  web app's Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyAWOQIYa8UYNxKUf8pHEc32JG-wM1nN-5E",
   authDomain: "academie-d9f97.firebaseapp.com",
